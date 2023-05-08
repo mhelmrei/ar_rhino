@@ -1,0 +1,2 @@
+
+.. automodule:: ar_rhino
