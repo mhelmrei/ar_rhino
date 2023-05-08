@@ -4,10 +4,11 @@ on:
   push:
     branches:
       - main
+      - master
   pull_request:
     branches:
       - main
-
+      - master
 jobs:
   build:
     if: "!contains(github.event.pull_request.labels.*.name, 'docs-only')"
