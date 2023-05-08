@@ -17,7 +17,7 @@ jobs:
           nuget install Grasshopper -OutputDirectory ./lib -source https://api.nuget.org/v3/index.json
       - uses: compas-dev/compas-actions.ghpython_components@v2
         with:
-          source: src/compas_kittens/ghpython/components
+          source: src/ar_rhino/ghpython/components
           target: build
       - uses: actions/upload-artifact@v2
         with:
